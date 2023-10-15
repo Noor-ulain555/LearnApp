@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">learnApp</string>
+    <string name="imglogo">image\n</string>
+    <string name="Appname">Learning</string>
+    <string name="textdeliver">Learning is a part of life</string>
+    <string name="account">Already Have An Account ?</string>
+    <string name="newa">Don\'t Have Account ?</string>
+
+    <string name="email">Email</string>
+    <string name="password">password</string>
+    <string name="logintitle">Login to Your Account</string>
+    <string name="show">show the user detail</string>
+    <string name="login">Login</string>
+    <string name="sign_up_here">Sign Up Here</string>
+    <string name="sign_up_with">Sign Up With</string>
+    <string name="userName">Name</string>
+    <string name="register">Create Account</string>
+    <string name="name">name</string>
+    <string name="phone">phone</string>
+    <string name="text2">𝐸𝓃𝒿𝑜𝓎 𝓎𝑜𝓊𝓇 𝒻𝒶𝓋𝑜𝓊𝓇𝒾𝓉𝑒 𝓂𝑒𝒶𝓁 𝒶𝓉 𝒽𝑜𝓂𝑒\n 𝒶𝓃𝓎 𝓉𝒾𝓂𝑒</string>
+    <string name="calculateAge">Calculate your Age</string>
+    <string name="calculateBmi">Calculate your BMI</string>
+    <string name="Bmi_btn"> BMI</string>
+    <string name="Age_btn">Age</string>
+    <string name="noor_ul_ain">Noor ul ain</string>
+    <string name="number">number</string>
+    <string name="todo">TODO</string>
+    <string name="date_month_year">Date-month-year</string>
+    <string name="datePicker">datePicker</string>
+    <string name="result">Result....</string>
+    <string name="enter_your_height_in_ft">Enter your height in ft</string>
+    <string name="calculate_bmi">Calculate BMI</string>
+    <string name="enter_your_height_in_inches">Enter your height in inches</string>
+    <string name="enter_your_weight">Enter your weight</string>
+    <string name="enter_your_height_in_ftt">Enter your height (in ft)</string>
+    <string name="inchess">Enter your height (in inche)</string>
+    <string name="results">Result.....</string>
+    <string name="enter_your_weightt">Enter your weight</string>
+    <string name="show_ageBtn">Show Age</string>
+
+
+</resources>

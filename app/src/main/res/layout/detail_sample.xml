@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/NumRoom"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Number of room"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/NumbedRoom"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Number of bedromm"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/NumbathRoom"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Number of bathroom"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/floor"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Number of floor"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/Area"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Area"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/LOCATION"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="LOCATION"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/rentsAle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="rent/sale"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/fur"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="furNonfur"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/marla"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="marla"
+            android:textSize="16sp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/editButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:src="@drawable/baseline_save_24"
+                android:text="Edit" />
+
+            <ImageView
+                android:id="@+id/deleteButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:src="@drawable/baseline_delete_forever_24"
+                android:text="Delete" />
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

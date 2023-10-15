@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:id="@+id/llmain"
+    android:layout_height="match_parent"
+    tools:context=".BMI">
+
+        <EditText
+            android:id="@+id/weightText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/enter_your_weightt"
+            android:inputType="number"
+            android:minHeight="48dp"
+            android:textSize="24sp" />
+        <EditText
+            android:id="@+id/heightText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/enter_your_height_in_ftt"
+            android:inputType="number"
+            android:minHeight="48dp"
+            android:textSize="24sp" />
+        <EditText
+            android:id="@+id/incheText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/inchess"
+            android:inputType="number"
+            android:minHeight="48dp"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/BMI_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="@color/yellow"
+            android:text="@string/calculate_bmi"
+            android:textSize="24sp" />
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:hint="@string/results"
+            android:textSize="24sp" />
+
+
+    </LinearLayout>
+
